@@ -14,6 +14,7 @@ public class Prospector : MonoBehaviour {
 	void Awake() {
 		S = this; // Set up a Singleton for Prospector
 	}
+	public List<CardProspector>  drawPile;
 
 	void Start()  {
 		deck = GetComponent<Deck>();  // Get the deck
